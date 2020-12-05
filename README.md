@@ -19,6 +19,6 @@ http://localhost:19002/
 Run a simulator
 ```
 
-To install the simulator, refer to [link](https://reactnative.dev/docs/environment-setup)
+To install the simulator, refer to [link](https://reactnative.dev/docs/environment-setup)  
 To run on your mobile device, scan the QR code
 
