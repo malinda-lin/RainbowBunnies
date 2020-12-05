@@ -23,6 +23,7 @@ To install the simulator, refer to [link](https://reactnative.dev/docs/environme
 To run on your mobile device, scan the QR code
 
 ## Resources
+[React-Native Crash Course](https://www.youtube.com/watch?v=Hf4MJH0jDb4&t=643s)
 
-[React-Native Crash Course](https://www.youtube.com/watch?v=0-S5a0eXPoc)
+[React-Native 2hr Course](https://www.youtube.com/watch?v=0-S5a0eXPoc)
 
