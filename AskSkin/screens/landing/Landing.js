@@ -1,10 +1,23 @@
 import React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import {
+  StyleSheet, View, Text, TouchableWithoutFeedback,
+} from 'react-native';
 
-export default function Landing({ navigation }) {
+// docs for buttons/tap gestures: https://reactnative.dev/docs/handling-touches#touchables
+
+export default function Landing({ navigation, route }) {
   return (
     <View style={styles.container}>
-      <Text>open landing.js to edit landing screen</Text>
+      <TouchableWithoutFeedback
+        onPress={() => {
+          navigation.navigate('OnboardingNavigator');
+        }}
+      >
+        <View>
+          <Text>Skincare is so ...</Text>
+          <Text>Tap to start</Text>
+        </View>
+      </TouchableWithoutFeedback>
     </View>
   );
 }
