@@ -16,11 +16,15 @@ npm install -g expo-cli
 Start App(Front-end):
 ```
 cd <directory you want to save this project to>
+
 git clone <this repo>
+
 cd AskSkin
+
 npm start
 
-http://localhost:19002/
+Open http://localhost:19002/
+
 Run a simulator
 ```
 
