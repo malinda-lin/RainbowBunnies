@@ -13,7 +13,7 @@ import {
 const { width, height } = Dimensions.get('window');
 
 export default function Landing({ navigation, route }) {
-  let [fontsLoaded] = useFonts({
+  const [fontsLoaded] = useFonts({
     DMSerifDisplay_400Regular,
   });
 
@@ -29,12 +29,12 @@ export default function Landing({ navigation, route }) {
       />
       <View style={styles.content}>
         <View style={styles.logoContainer}>
-          <Text style={styles.logo}>Askin</Text>
+          <Text style={styles.logo}>AsKin</Text>
         </View>
         <View style={styles.taglineContainer}>
           <Text style={styles.tagline}>Skincare is self care.</Text>
           <Text style={styles.description}>
-            searchable database for few ingredients take our skin type and skin concern quiz!
+            Searchable database for 3 key ingredients, take our skin type and skin concern quiz!
           </Text>
         </View>
         <View style={styles.buttonContainer}>
@@ -84,7 +84,8 @@ const styles = StyleSheet.create({
   },
   tagline: {
     margin: 10,
-    fontSize: 30
+    fontSize: 30,
+    fontFamily: 'DMSerifDisplay_400Regular'
   },
   description: {
     fontSize: 16
@@ -108,12 +109,9 @@ const styles = StyleSheet.create({
   },
   bkgImage: {
     flex: 1,
-    // resizeMode: 'cover',
-    // justifyContent: 'center',
     position: 'absolute',
-    top: -400,
-    height: height * 1.5,
-    width: width * 1.5
+    height,
+    width
 
   }
 });

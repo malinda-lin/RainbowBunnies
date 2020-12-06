@@ -5,7 +5,7 @@ import Onboarding from '../screens/landing/Onboarding';
 import QuizNavigator from './QuizNavigator';
 // ***comment in the below lines when files are ready***
 // import Ingredients from './screens/ingredients/Ingredients';
-// import Ingredients from './screens/skinConcerns/SkinConcerns';
+import SkinConcerns from '../screens/skinConcerns/SkinConcerns';
 
 const AppStack = createStackNavigator();
 
@@ -18,7 +18,7 @@ export default function OnboardingNavigator() {
 
       <AppStack.Screen name="QuizNavigator" component={QuizNavigator} />
 
-      {/* <AppStack.Screen name="SkinConcerns" component={SkinConcerns} /> */}
+      <AppStack.Screen name="SkinConcerns" component={SkinConcerns} />
 
     </AppStack.Navigator>
   );

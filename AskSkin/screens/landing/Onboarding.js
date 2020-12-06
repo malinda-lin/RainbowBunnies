@@ -21,7 +21,7 @@ export default function Onboarding({ navigation, route }) {
       <Button
         title="skin concern"
         onPress={() => {
-          navigation.navigate('QuizNavigator');
+          navigation.navigate('SkinConcerns');
         }}
       />
       <Button

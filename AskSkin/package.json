@@ -9,10 +9,12 @@
   },
   "dependencies": {
     "@expo-google-fonts/dm-serif-display": "^0.1.0",
+    "@expo-google-fonts/work-sans": "^0.1.0",
     "@react-native-community/masked-view": "0.1.10",
     "@react-navigation/native": "^5.8.10",
     "@react-navigation/stack": "^5.12.8",
     "expo": "~39.0.2",
+    "expo-font": "~8.3.0",
     "expo-splash-screen": "~0.6.2",
     "expo-status-bar": "~1.0.2",
     "expo-updates": "~0.3.2",
