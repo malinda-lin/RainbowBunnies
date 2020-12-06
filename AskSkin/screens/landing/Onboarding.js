@@ -24,6 +24,12 @@ export default function Onboarding({ navigation, route }) {
           navigation.navigate('QuizNavigator');
         }}
       />
+      <Button
+        title="back button for dev purposes"
+        onPress={() => {
+          navigation.navigate('Landing');
+        }}
+      />
     </View>
   );
 }

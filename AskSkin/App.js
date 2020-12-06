@@ -6,6 +6,7 @@ import { StyleSheet } from 'react-native';
 
 import AppNavigator from './navigation/AppNavigator';
 
+// This is our entry file
 // navigation docs: https://reactnative.dev/docs/navigation
 const Stack = createStackNavigator();
 
