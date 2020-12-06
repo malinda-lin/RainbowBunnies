@@ -41,7 +41,13 @@ export default function SkinConcerns({ navigation, route }) {
   const ingredientRenderItem = ({ item }) => (
     <View>
       <FlatListItemSeparator />
-      <Item title={item.title} />
+      <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', margin: 10 }}>
+        <Image
+          style={{ height: 20, width: 20, marginRight: 15 }}
+          source={require('../../assets/images/Icon_Collagen.png')}
+        />
+        <Item title={item.title} />
+      </View>
     </View>
   );
   const quickFactsRenderItem = ({ item }) => (
@@ -78,13 +84,13 @@ export default function SkinConcerns({ navigation, route }) {
           </View>
 
           <View style={styles.dataSection}>
-          <Text style={styles.headerTwo}>Quickfacts</Text>
-          <FlatList
-            style={styles.quickFactsDataFL}
-            data={quickFactsData}
-            renderItem={quickFactsRenderItem}
-            keyExtractor={(item) => item.id}
-          />
+            <Text style={styles.headerTwo}>Quickfacts</Text>
+            <FlatList
+              style={styles.quickFactsDataFL}
+              data={quickFactsData}
+              renderItem={quickFactsRenderItem}
+              keyExtractor={(item) => item.id}
+            />
           </View>
 
           <View style={styles.dataSection}>
@@ -146,7 +152,7 @@ const styles = StyleSheet.create({
     margin: width / 16
   },
   dataSection: {
-    marginTop: 10
+    marginBottom: 20
   },
   productName: {
     fontFamily: 'WorkSans_600SemiBold',
