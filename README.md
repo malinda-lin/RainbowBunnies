@@ -3,6 +3,7 @@
 <img src="https://github.com/malinda-lin/RainbowBunnies/blob/main/AsKin_Landing_Page.png" width="150">   <img src="https://github.com/malinda-lin/RainbowBunnies/blob/main/database-1-gif.gif" width="150"> 
 
 ## About
+[Devpost Submission](https://devpost.com/software/askin)
 This mobile app makes the world of skincare easier to navigate and demystifies the science in skincare cosmetic ingredients. It reduces confusion by providing users with "3 magical ingredients" to include in their skincare regime that is perfectly tailored to their concerns and skin type without any ulterior motive of providing merchandise from a single company afterwards. They also have the ability to search for specific ingredients by browsing through the app’s database or utilizing the search bar. Now, users can “AsKin” while they’re on-the-go shopping for products, or when they are simply ready to start their skincare journey.
 
 ## Installation
