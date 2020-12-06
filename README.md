@@ -1,6 +1,6 @@
 # AskSkin
 
-<img src="https://github.com/malinda-lin/RainbowBunnies/blob/main/AsKin%20Landing%20Page.png" width="150">
+<img src="https://github.com/malinda-lin/RainbowBunnies/blob/main/AsKin_Landing_Page.png" width="150">
 
 ## Installation
 
